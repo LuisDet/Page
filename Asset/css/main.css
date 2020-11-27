@@ -343,6 +343,10 @@ header{
     color: var(--links);
   }
 
+  .instagram:hover{
+    filter: brightness(60%);
+  }
+
 footer{
   width: 100%;
   background-color:#212529;
