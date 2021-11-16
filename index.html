@@ -1,35 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trade Team Marketing</title>
-  <link rel="shortcut icon" href="Asset/image/Logo Tradeteam.svg" type="image/x-icon">
-  <script src="https://kit.fontawesome.com/870d71ca37.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./Asset/css/main.css">
-</head>
-<body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trade Team Marketing</title>
+    <link
+      rel="shortcut icon"
+      href="Asset/image/Logo Tradeteam.svg"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/870d71ca37.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Asset/css/main.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
     <header>
-      <img src="./Asset/image/Circle2.png" class="circle" alt="">
-      <nav> 
+      <!-- <img src="./Asset/image/Circle2.png" class="circle" alt="" /> -->
+      <nav class="wrapper">
         <div class="logo-container">
-          <img src="./Asset/image/Logo Tradeteam.svg" alt="" class="logo">
+          <img
+            src="./Asset/image/Logo Tradeteam.svg"
+            alt="Trade Team Logo"
+            class="logo"
+          />
         </div>
-        <input type="checkbox" name="btn-menu" id="btn-menu">
-        <label for="btn-menu" class="btn-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" name="btn-menu" id="btn-menu" />
+        <label for="btn-menu" class="btn-menu">
+          <i class="fas fa-bars"></i>
+        </label>
         <div class="menu">
           <ul>
             <div class="logo-container">
-              <img src="./Asset/image/Logo Tradeteam.svg" alt="" class="logo">
+              <img
+                src="./Asset/image/Logo Tradeteam.svg"
+                alt="Trade Team Logo"
+                class="logo"
+              />
             </div>
             <li class="menu-item"><a href="#">Incio</a></li>
             <li class="menu-item"><a href="#service">Servicios</a></li>
-            <li class="menu-item"><a href="#application">Aplicación</a></li>
-            <li class="menu-item"><a href="#client">Nuestros Clientes</a></li>
+            <li class="menu-item"><a href="#application">Herramienta</a></li>
+            <li class="menu-item"><a href="#about">Nosotros</a></li>
             <li class="menu-item"><a href="#contact">Contacto</a></li>
-            <li class="menu-item instagram"><a href="https://www.instagram.com/tradeteamrd/"><i class="fab fa-instagram"></i></a></li>
+            <li class="menu-item instagram">
+              <a href="https://www.instagram.com/tradeteamrd/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -37,283 +62,401 @@
       <div class="hero">
         <div class="wrapper">
           <div class="hero-text">
-            <h2 class="c-blue">
-              Estamos <span class="c-orange">comprometidos</span> a alcanzar los objetivos de <span class="c-orange">nuestro clientes</span>
-            </h2>
+            <!-- <h1>Los mejores en marketing digital</h1> -->
+            <p>
+              Realice las mejores ejecuciones y estrategias en sus actividades
+              promocionales y en punto de ventas. Nos enfocamos en aumentar su
+              visibilidad, enfoque y oferta de sus productos mejorando la
+              ejecución y productividad del equipo de merchandisers y promotoras
+              <!-- Estamos <span class="c-orange">comprometidos</span> a alcanzar los
+              objetivos de <span class="c-orange">nuestro clientes</span> -->
+            </p>
           </div>
           <div class="hero-image-container">
             <div class="hero-image-item image-circle">
-              <img src="./Asset/image/Circle.png" alt="" srcset="">
+              <img src="./Asset/image/Circle.png" alt="" srcset="" />
             </div>
             <div class="hero-image-item image-circle2">
-              <img src="./Asset/image/Circle3.png" alt="" srcset="">
+              <img src="./Asset/image/Circle3.png" alt="" srcset="" />
             </div>
             <div class="hero-image-item image-ondas">
-              <img src="./Asset/image/Ondas.png" alt="" srcset="">
+              <img src="./Asset/image/Ondas.png" alt="" srcset="" />
             </div>
-            <div class="hero-image-item image-triangle">
-              <img src="./Asset/image/Triangle.png" alt="" srcset="">
-            </div>
+            <!-- <div class="hero-image-item image-triangle">
+              <img src="./Asset/image/Triangle.png" alt="" srcset="" />
+            </div> -->
             <div class="hero-image">
-              <img src="./Asset/image/Gestion y administración.png" alt="">
+              <img src="./Asset/image/Gestion y administración.png" alt="" />
             </div>
           </div>
         </div>
       </div>
     </header>
-      <main>
-        <section class="service" id="service">
-          <div class="wrapper">
-            <h2 class="title">Servicios</h2>
-            <div class="card-container">
-              <div class="card">
-                <div class="card-image">
-                  <img src="Asset/image/Trade marketing.png" alt="">
-                </div>
-                <div class="card-info">
-                  <h3 class="card-title">Trade Marketing</h3>
-                  <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eius cumque illo excepturi ea officiis nostrum? Dolorum cum ea cumque eveniet, magni reprehenderit deserunt ipsum, vero qui quia temporibus ut.</p>
-                </div>
+    <main>
+      <section class="service" id="service">
+        <div class="wrapper">
+          <h2 class="title">Servicios</h2>
+          <div class="card-container">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="Asset/image/Trade marketing.png"
+                  alt="Trade Marketing"
+                />
               </div>
-              <div class="card">
-                <div class="card-image">
-                  <img src="Asset/image/Entrenamientos de fuerza de venta.png" alt="">
-                </div>
-                <div class="card-info">
-                  <h3 class="card-title">Desarrollo de la fuerza de ventas</h3>
-                  <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eius cumque illo excepturi ea officiis nostrum? Dolorum cum ea cumque eveniet, magni reprehenderit deserunt ipsum, vero qui quia temporibus ut.</p>
-                </div>
+              <div class="card-info">
+                <h3 class="card-title">Trade Marketing</h3>
+                <p class="card-description">
+                  Nuestras soluciones facilitan a nuestros clientes una gestión
+                  y ejecución de manera rentable cada punto de venta, totalmente
+                  alineados con los planes de Marketing, generando sinergia en
+                  el negocio.
+                </p>
               </div>
-              <div class="card">
-                <div class="card-image">
-                  <img src="Asset/image/Desarrollo de plataforma.png" alt="">
-                </div>
-                <div class="card-info">
-                  <h3 class="card-title">Administracion de Trade Marketing</h3>
-                  <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eius cumque illo excepturi ea officiis nostrum? Dolorum cum ea cumque eveniet, magni reprehenderit deserunt ipsum, vero qui quia temporibus ut.</p>
-                </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="Asset/image/Kpi.png"
+                  alt="KPI´S de gestión del punto de ventas"
+                />
               </div>
-              <div class="card">
-                <div class="card-image">
-                  <img src="Asset/image/Perfil de competencia del mercaderista.png" alt="">
-                </div>
-                <div class="card-info">
-                  <h3 class="card-title">Desarrollo del perfil por competencias del mercaderista</h3>
-                  <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eius cumque illo excepturi ea officiis nostrum? Dolorum cum ea cumque eveniet, magni reprehenderit deserunt ipsum, vero qui quia temporibus ut.</p>
-                </div>
+              <div class="card-info">
+                <h3 class="card-title">KPI´S de gestión del punto de ventas</h3>
+                <p class="card-description">
+                  KPI´S nativos: medición de agotados, espacios por categorías,
+                  precios, rotación, colocación diaria (Sell In/Sell Out) e
+                  inventarios x tiendas.
+                </p>
               </div>
-              <div class="card">
-                <div class="card-image">
-                  <img src="Asset/image/Gestion y administración.png" alt="">
-                </div>
-                <div class="card-info">
-                  <h3 class="card-title">Gestión y administración del personal del
-                    PDV</h3>
-                  <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eius cumque illo excepturi ea officiis nostrum? Dolorum cum ea cumque eveniet, magni reprehenderit deserunt ipsum, vero qui quia temporibus ut.</p>
-                </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="Asset/image/Gestion y administración.png"
+                  alt="Gestión y administración del personal del PDV"
+                />
               </div>
-              <div class="card">
-                <div class="card-image">
-                  <img src="Asset/image/Kpi.png" alt="">
-                </div>
-                <div class="card-info">
-                  <h3 class="card-title">KPI´S de gestión del punto
-                    de ventas</h3>
-                  <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eius cumque illo excepturi ea officiis nostrum? Dolorum cum ea cumque eveniet, magni reprehenderit deserunt ipsum, vero qui quia temporibus ut.</p>
-                </div>
+              <div class="card-info">
+                <h3 class="card-title">
+                  Gestión y administración del personal del PDV
+                </h3>
+                <p class="card-description">
+                  Administración y ejecución del personal en punto de ventas,
+                  actividades promocionales e impulso con KPI`S a través de
+                  herramientas tecnológicas.
+                </p>
               </div>
-              <div class="card">
-                <div class="card-image">
-                  <img src="Asset/image/Outsorcing.png" alt="">
-                </div>
-                <div class="card-info">
-                  <h3 class="card-title">Outsourcing: vendedores, mercaderistas,
-                    promotoras</h3>
-                  <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eius cumque illo excepturi ea officiis nostrum? Dolorum cum ea cumque eveniet, magni reprehenderit deserunt ipsum, vero qui quia temporibus ut.</p>
-                </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="Asset/image/Desarrollo de plataforma.png"
+                  alt="Tecnología aplicada a los puntos de ventas"
+                />
               </div>
-              <div class="card">
-                <div class="card-image">
-                  <img src="Asset/image/Promociones de ventas.png" alt="">
-                </div>
-                <div class="card-info">
-                  <h3 class="card-title">Promociones de ventas</h3>
-                  <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eius cumque illo excepturi ea officiis nostrum? Dolorum cum ea cumque eveniet, magni reprehenderit deserunt ipsum, vero qui quia temporibus ut.</p>
-                </div>
+              <div class="card-info">
+                <h3 class="card-title">
+                  Tecnología aplicada a los puntos de ventas
+                </h3>
+                <p class="card-description">
+                  Reportería, presentación, entregables, diarios de ejecución
+                  del punto de ventas a sólo un clip, Merchandising, assortment,
+                  pricing y Shelving.
+                </p>
               </div>
-              <div class="card">
-                <div class="card-image">
-                  <img src="Asset/image/Investigación.png" alt="">
-                </div>
-                <div class="card-info">
-                  <h3 class="card-title">Investigación de mercados</h3>
-                  <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eius cumque illo excepturi ea officiis nostrum? Dolorum cum ea cumque eveniet, magni reprehenderit deserunt ipsum, vero qui quia temporibus ut.</p>
-                </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="Asset/image/Outsorcing.png"
+                  alt="Outsourcing: vendedores, mercaderistas, promotoras"
+                />
               </div>
-              <div class="card">
-                <div class="card-image">
-                  <img src="Asset/image/Desarrollo de plataforma.png" alt="">
-                </div>
-                <div class="card-info">
-                  <h3 class="card-title">Desarrollo de una plataforma</h3>
-                  <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eius cumque illo excepturi ea officiis nostrum? Dolorum cum ea cumque eveniet, magni reprehenderit deserunt ipsum, vero qui quia temporibus ut.</p>
-                </div>
+              <div class="card-info">
+                <h3 class="card-title">
+                  Outsourcing: vendedores, mercaderistas, promotoras
+                </h3>
+                <p class="card-description">
+                  Administrados bajo tercerización, administración de nómina,
+                  actividades eventuales, promoción de marcas y productos.
+                </p>
               </div>
-              <div class="card">
-                <div class="card-image">
-                  <img src="Asset/image/20 años de experiencia.png" alt="">
-                </div>
-                <div class="card-info">
-                  <h3 class="card-title">Outsourcing con un equipo experto en
-                    el área de Mercadeo</h3>
-                  <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eius cumque illo excepturi ea officiis nostrum? Dolorum cum ea cumque eveniet, magni reprehenderit deserunt ipsum, vero qui quia temporibus ut.</p>
-                </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="Asset/image/Perfil de competencia del mercaderista.png"
+                  alt="Desarrollo del perfil por competencias del mercaderista"
+                />
               </div>
-              <div class="card">
-                <div class="card-image">
-                  <img src="Asset/image/Edecanes.png" alt="">
-                </div>
-                <div class="card-info">
-                  <h3 class="card-title">Edecanes para eventos y actividades</h3>
-                  <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eius cumque illo excepturi ea officiis nostrum? Dolorum cum ea cumque eveniet, magni reprehenderit deserunt ipsum, vero qui quia temporibus ut.</p>
-                </div>
+              <div class="card-info">
+                <h3 class="card-title">
+                  Desarrollo del perfil por competencias del mercaderista
+                </h3>
+                <p class="card-description">
+                  Desarrollo profesional del personal del punto de ventas a
+                  través de entrenamientos, coaching y acompañamiento a bordo de
+                  ruta.
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="Asset/image/Promociones de ventas.png"
+                  alt="Promociones de ventas"
+                />
+              </div>
+              <div class="card-info">
+                <h3 class="card-title">Promociones de ventas</h3>
+                <p class="card-description">
+                  BTL: ejecución de promociones con enfoque al consumidor y al
+                  canal de distribución. Desarrollo de POP duro, termoformados,
+                  exhibidores.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="Asset/image/Investigación.png"
+                  alt="Investigación de mercados"
+                />
+              </div>
+              <div class="card-info">
+                <h3 class="card-title">Investigación de mercados</h3>
+                <p class="card-description">
+                  Investigación cualitativas y cuantitativas en punto de ventas,
+                  tendencia de compra, experiencia y decisiones de compra,
+                  conducta de Compra (shopper marketing). Plano/punteo de
+                  clientes por canal.
+                </p>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section class="application" id="application">
-          <div class="wrapper">
-            <h2 class="title">Aplicación</h2>
-            <div class="app-container">
-              <div class="app-item">
-                <div class="app-image">
-                  <img src="Asset/image/App.png" alt="">
-                </div>
-                <div class="app-info">
-                  <h3 class="app-title">INDICADORES EN TIEMPO REAL</h3>
-                  <p class="app-description">TOTALMENTE CUSTOMIZABLES Y
-                    ADAPTADOS A LA REALIDAD DE SU NEGOCIO</p>
-                </div>
+      <section class="application" id="application">
+        <div class="wrapper">
+          <h2 class="title">Herramienta</h2>
+          <p class="tool-description">
+            Nuestra plataforma tecnológica es sinónimo de control y seguimiento
+            al personal del punto de ventas con una APP, Gps, rutas, tareas,
+            encuetas x tiendas diaria.
+          </p>
+          <div class="app-container">
+            <div class="app-item">
+              <div class="app-image">
+                <img
+                  src="Asset/image/App.png"
+                  alt="INDICADORES EN TIEMPO REAL"
+                />
               </div>
-              <div class="app-item">
-                <div class="app-image">
-                  <img src="Asset/image/App2.png" alt="">
-                </div>
-                <div class="app-info">
-                  <h3 class="app-title">CONSTRUCCIÓN DE GRÁFICOS</h3>
-                  <p class="app-description">LAS ESTADÍSTICAS DE SU OPERACIÓN
-                    PLASMADAS EN GRÁFICOS OBJETIVOS</p>
-                    <h3 class="app-title">INFORME DE FOTOS</h3>
-                    <p class="app-description">GENERE UN INFORME DE FOTOS
-                      MENSUAL EN MENOS DE 5 MINUTOS</p>
-                </div>          
-              </div>  
-              <div class="app-item">
-                <div class="app-image">
-                  <img src="Asset/image/App3.png" alt="">
-                </div>
-                <div class="app-info">
-                  <h3 class="app-title">MONITOREO Y CONTROL</h3>
-                  <p class="app-description">TIMELINE Y CONFIRMACIÓN DE VISITAS A
-                    TRAVÉS DE GPS. FIDELIDAD EN LOS DATOS</p>
-                </div>
-              </div>  
-              <div class="app-item">
-                <div class="app-image">
-                  <img src="Asset/image/App4.png" alt="">
-                </div>
-                <div class="app-info">
-                  <h3 class="app-title">MONITOREO Y CONTROL</h3>
-                  <p class="app-description">INFORMACIONES Y REGISTROS COMPLETOS
-                    DE LA RUTINA DEL PROMOTOR</p>
-                </div>
-              </div>  
-              <div class="app-item">
-                <div class="app-image">
-                  <img src="Asset/image/App5.png" alt="">
-                </div>
-                <div class="app-info">
-                  <h3 class="app-title">ALERTAS POR E-MAIL</h3>
-                  <p class="app-description">REACCIONE RÁPIDAMENTE CUANDO HAYA ACCIONES
-                    DE LA COMPETENCIA, QUIEBRES Y OTROS ESCENARIOS</p>
-                </div>
-              </div>  
+              <div class="app-info">
+                <h3 class="app-title">INDICADORES EN TIEMPO REAL</h3>
+                <p class="app-description">
+                  Siga el desempeño de su operación y equipo de punto de ventas
+                  en tiempo real, totalmente customizables y adaptados a la
+                  realidad de su negocio.
+                </p>
+              </div>
             </div>
-          </div>
-        </section>
-
-        <section class="client" id="client">
-          <div class="wrapper">
-            <h2 class="title">Nuestros Clientes</h2>
-            <div class="client-container">
-              <div class="client-item">
-                <img src="Asset/image/Agua_Maria.png" alt="">
+            <div class="app-item">
+              <div class="app-image">
+                <img
+                  src="Asset/image/App2.png"
+                  alt="CONSTRUCCIÓN DE GRÁFICOS y INFORME DE FOTOS"
+                />
               </div>
-              <div class="client-item">
-                <img src="Asset/image/Hunts_logo.png" alt="">
+              <div class="app-info">
+                <h3 class="app-title">CONSTRUCCIÓN DE GRÁFICOS</h3>
+                <p class="app-description">
+                  Todas las estadísticas de su operación del trade plasmadas en
+                  gráficos objetivos para la toma de decisiones.
+                </p>
+                <h3 class="app-title">INFORME DE FOTOS</h3>
+                <p class="app-description">
+                  Genera un informe fotográfico de ejecución en menos de 5
+                  minutos.
+                </p>
               </div>
-              <div class="client-item">
-                <img src="Asset/image/La-fabril.png" alt="">
+            </div>
+            <div class="app-item">
+              <div class="app-image">
+                <img src="Asset/image/App3.png" alt="MONITOREO Y CONTROL" />
               </div>
-              <div class="client-item">
-                <img src="Asset/image/Act2logo.png" alt="">
+              <div class="app-info">
+                <h3 class="app-title">MONITOREO Y CONTROL</h3>
+                <p class="app-description">
+                  Desarrollo y medición tiempo movimiento de rutas, gestión de
+                  piso establecida x categorías (tiempo de ejecución) Planograma
+                  ideal con software vs ejecución.
+                </p>
               </div>
-              <div class="client-item">
-                <img src="Asset/image/arroz-bisono.png" alt="">
+            </div>
+            <div class="app-item">
+              <div class="app-image">
+                <img src="Asset/image/App4.png" alt="MONITOREO Y CONTROL" />
               </div>
-              <div class="client-item">
-                <img src="Asset/image/avena-americana.png" alt="">
+              <div class="app-info">
+                <h3 class="app-title">MONITOREO Y CONTROL</h3>
+                <p class="app-description">
+                  Timeline y confirmación de visitas a través de gps,
+                  informaciones y registros completos de la rutina del
+                  mercaderista y promotoras.
+                </p>
               </div>
-              <div class="client-item">
-                <img src="Asset/image/don-rodrigo.png" alt="">
+            </div>
+            <div class="app-item">
+              <div class="app-image">
+                <img src="Asset/image/App5.png" alt="ALERTAS POR E-MAIL" />
               </div>
-              <div class="client-item">
-                <img src="Asset/image/stoken.png" alt="">
+              <div class="app-info">
+                <h3 class="app-title">ALERTAS POR E-MAIL</h3>
+                <p class="app-description">
+                  REACCIONE RÁPIDAMENTE CUANDO HAYA ACCIONES DE LA COMPETENCIA,
+                  QUIEBRES Y OTROS ESCENARIOS
+                </p>
               </div>
             </div>
           </div>
-        </section>
-        
-        <section class="contact" id="contact"> 
-          <div class="wrapper">
-            <h2 class="title">Contacto</h2>
-            <div class="contact-container">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.214159895631!2d-69.95626068545718!3d18.473956075420624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89f88ee71d77%3A0x9dd29f0b6719ba0b!2sTrade%20Team%20Marketing%20OAE%2C%20SRL!5e0!3m2!1ses!2sdo!4v1606257586636!5m2!1ses!2sdo" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-              <div class="contact-info">
-                <div class="contact-item">
-                  <i class="fas fa-phone-alt"></i>
-                  <p>(000) - 000 - 0000</p>
-                </div>
-                <div class="contact-item">
-                  <i class="fas fa-map-marker-alt"></i>
-                  <p>Location</p>
-                </div>
-                <div class="contact-item">
-                  <i class="fas fa-envelope"></i>
-                  <p>Yourmail@corre.com</p>
-                </div>            
-                <div class="contact-item">
-                  <a href="https://www.instagram.com/tradeteamrd/"><i class="fab fa-instagram instagram"></i></a>
-                </div>     
-              </div>
-            </div>     
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="wrapper">
+          <h2 class="title">Acerca de nosotros</h2>
+          <p class="tool-description">
+            Trade Team Marketing es un equipo de outsourcing especializado en la
+            Gestión y ejecución del punto de ventas a través de la implantación
+            de indicadores duro, creados con nuestros clientes, adaptados a las
+            necesidades de las categorías y los canales de distribución que
+            operan.
+          </p>
+          <div class="about-container">
+            <div class="about-card about-mission">
+              <h3>Mision</h3>
+              <p>
+                Proporcionar el mayor entendimiento y conocimiento del Trade
+                Marketing en la industria de alimentos, consumo, servicios e
+                industrial, bajo un modelo de negocios outsourcing de corte
+                mundial, capaz de brindar soluciones de valor añadido a nuestros
+                clientes en la gestión y ejecución del punto de ventas,
+                orientadas a generar volúmenes de ventas a través de tecnologías
+                eficientes, procesos robustos y el recurso humano con las
+                competencias exigida en las industrias que operamos.
+              </p>
+            </div>
+            <div class="about-card about-vision">
+              <h3>Vision</h3>
+              <p>
+                Convertirnos en la empresa comercial de mayor relevancia en el
+                área de Centroamérica y el caribe, orientado a negocios en la
+                cadena de valor, comercialización y distribución que generen
+                utilidades sostenidas en el tiempo que garanticen un cambio en
+                la calidad de vida de nuestros accionistas, clientes y
+                colaboradores.
+              </p>
+            </div>
+            <div class="about-card about-goals">
+              <h3>Valores</h3>
+              <ul>
+                <li>Integridad</li>
+                <li>Honestidad</li>
+                <li>Responsabilidad</li>
+                <li>Lealtad</li>
+                <li>Compromiso</li>
+                <li>Libertad</li>
+                <li>Justicia</li>
+                <li>Equidad</li>
+              </ul>
+            </div>
           </div>
-        </section>
-  </main>
-  <footer>
-    <p>Todos los derechos reservados a Trade Team Marketing 2020</p>
-  </footer>
+        </div>
+      </section>
 
-  <script>
-    const btn = document.querySelectorAll('.menu-item')
-    const inputCheckbox = document.querySelector('#btn-menu')
+      <section class="client" id="client">
+        <div class="wrapper">
+          <h2 class="title">Nuestros Clientes</h2>
+          <div class="client-container">
+            <div class="client-item">
+              <img src="Asset/image/Agua_Maria.png" alt="" />
+            </div>
+            <div class="client-item">
+              <img src="Asset/image/asepxia.png" alt="" />
+            </div>
+            <div class="client-item">
+              <img src="Asset/image/Elite.png" alt="" />
+            </div>
+            <div class="client-item">
+              <img src="Asset/image/FACELA.png" alt="" />
+            </div>
+            <div class="client-item">
+              <img src="Asset/image/arroz-bisono.png" alt="" />
+            </div>
+            <div class="client-item">
+              <img src="Asset/image/frico.png" alt="" />
+            </div>
+            <div class="client-item">
+              <img src="Asset/image/don-rodrigo.png" alt="" />
+            </div>
+            <div class="client-item">
+              <img src="Asset/image/Goicoechea.png" alt="" />
+            </div>
+            <div class="client-item">
+              <img src="Asset/image/Patron de oro.png" alt="" />
+            </div>
+            <div class="client-item">
+              <img src="Asset/image/pointer.png" alt="" />
+            </div>
+            <div class="client-item">
+              <img src="Asset/image/Teatrical.png" alt="" />
+            </div>
+            <div class="client-item">
+              <img src="Asset/image/TioNacho.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
 
-    btn.forEach(item =>{
-      item.addEventListener('click', ()=>{
-        inputCheckbox.checked = false;
-      })
-    })
-  </script>
-</body>
+      <section class="contact" id="contact">
+        <div class="wrapper">
+          <h2 class="title">Contacto</h2>
+          <div class="contact-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.214159895631!2d-69.95626068545718!3d18.473956075420624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89f88ee71d77%3A0x9dd29f0b6719ba0b!2sTrade%20Team%20Marketing%20OAE%2C%20SRL!5e0!3m2!1ses!2sdo!4v1606257586636!5m2!1ses!2sdo"
+              width="600"
+              height="450"
+              frameborder="0"
+              style="border: 0"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            ></iframe>
+            <div class="contact-info">
+              <div class="contact-item">
+                <i class="fas fa-phone-alt"></i>
+                <p>(809) 333-7444</p>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <p>servicioalcliente@tradeteamrd.com</p>
+              </div>
+              <div class="contact-item">
+                <a href="https://www.instagram.com/tradeteamrd/"
+                  ><i class="fab fa-instagram instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Todos los derechos reservados a Trade Team Marketing 2020</p>
+    </footer>
+  </body>
 </html>
